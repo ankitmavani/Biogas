@@ -1,0 +1,273 @@
+
+@font-face {
+    font-family:  muli;
+    src: url('muli-v20-latin-regular.woff');
+}
+
+@font-face {
+    font-family: playfair display;
+    src: url(' playfair-display-v20-latin-regular.woff');
+}
+/* width */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey; 
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #098d40; 
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #008638; 
+}
+body
+{
+	font-family: muli;
+}
+/*nav start*/
+.logo
+{
+	width: 190px;
+}
+.nav_item .nav-link
+{
+	color: #000!important;
+	text-transform: uppercase;
+	font-weight: 600!important;
+	letter-spacing: 1px;
+	transition: 0.5s;
+}
+.nav_item .nav-link:hover
+{
+	color: #098d40!important;
+	transform: translateY(3px);
+}
+.dropdwn_main
+{
+	margin-top: 23px;
+	border-radius: 0;
+	border:none;
+}
+.nav-link_hvr
+{
+	text-transform: uppercase;
+	font-weight: 600!important;
+	letter-spacing: 1px;
+	transition: 0.7s;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.nav-link_hvr:hover
+{
+	color: #fff;
+}
+.nav_item .nav-link:focus
+{
+	box-shadow: none;
+}
+.sub_srvs:hover
+{
+	background-color: #098d40;
+	color: #fff;
+}
+/*nav end*/
+
+.hero_img
+{
+		height: 800px;
+		width: 100%;
+		background-image: url(../img/bio.png);
+		background-size: cover;
+		background-attachment: fixed;
+		position: relative;
+		background-position: top;
+}
+.qut
+{
+	background-color: #098d40;
+	border: 12px solid #fff;
+	font-family: Playfair Display;
+	letter-spacing: 2px;
+	font-size: 40px;
+	padding: 40px 60px;
+	position: absolute;
+	top: 70%;
+	left: 80px;
+}
+@media(max-width: 768px)
+{
+.hero_img {
+    background-repeat: no-repeat!important;
+    height: 150px!important;
+    background-size: contain!important;
+}
+
+.main_detail {
+    margin-top: 30px!important;
+}
+ .qut
+ {
+ 	display: none;
+ }
+ .head
+{
+	color: #098d40;
+	font-size: 25px!important;
+	font-family: playfair display;
+	border-left: 6px solid #098d40;
+	padding-left: 20px;
+	letter-spacing: 1px;
+}
+.head2
+{
+	color: #098d40;
+	font-size: 25px!important;
+	font-family: playfair display;
+	letter-spacing: 1px;
+	border-right: 6px solid #098d40;
+	padding-right: 20px;
+}
+.head_details
+{
+	font-size: 15px!important;
+	letter-spacing: 1px;
+	text-align: justify!important;
+}
+}
+.main_detail
+{
+	margin-top: 80px;
+}
+.head
+{
+	color: #098d40;
+	font-size: 30px;
+	font-family: playfair display;
+	border-left: 6px solid #098d40;
+	padding-left: 20px;
+	letter-spacing: 1px;
+}
+.head2
+{
+	color: #098d40;
+	font-size: 30px;
+	font-family: playfair display;
+	letter-spacing: 1px;
+	border-right: 6px solid #098d40;
+	padding-right: 20px;
+}
+.head_details
+{
+	font-size: 19px;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+.video_main
+{    height: 380px;
+    position: relative;
+    background-image: url(../img/akshar-logo2.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.grn_lyr
+{
+	height: 380px;
+	width: 100%;
+	background-color: #098d40;
+	opacity: 0.92;
+	position: absolute;
+	top: 0;
+}
+.grn_lyr a img
+{
+	position: absolute;
+	top: calc(50% - 50px);
+	left: 50%;
+	transform: translateX(-50%);
+
+
+}
+.btn_gen
+{
+	background-color: #098d40;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 1px;
+	transition: 0.3s;
+	padding: 12px 18px;
+	font-size: 17px;
+}
+.btn_gen:hover
+{
+	color: #fff;
+	box-shadow: 3px 3px 5px rgba(9,141,64,0.4);
+	transform: scale(1.05);
+}
+.inqry_area
+{
+	border: 1px solid #098d40;
+	box-shadow: 1px 1px 4px rgba(9, 141, 64, 0.33);
+}
+.inqry_area:focus
+{
+	border-color: #098d40;
+	box-shadow: 0 0 0 0.2rem rgba(9, 141, 64, 0.25);
+}
+footer
+{
+	background-color: #098d40;
+}
+.head_ftr
+{
+	font-size: 23px;
+	color: 	#003399;
+	font-weight: 600;
+	letter-spacing: 1px;
+
+}
+.social_icon a
+{
+	color: #fff!important;
+	transition: 0.5s;
+}
+.social_icon a:hover
+{
+	color: #003399!important;
+}
+.ftr_icon
+{
+	color: #003399;
+}
+
+
+
+
+
+
+
+.img_main
+{
+	padding: 0px ;
+}
+.img_main img
+{
+	transition: 1s;
+	transform: scale(0.95);
+}
+.img_main:hover.img_main img
+{
+	transform: translateY(-30px);
+	box-shadow: 0 0 50px rgba(0,0,0,0.6);
+	z-index: 20;
+}
